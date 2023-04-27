@@ -9,6 +9,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # 讀入 train.csv 檔案
 train_data = pd.read_csv('train.csv')
 # 定義模型的神經網路
+#123
 class Net(nn.Module):
     def __init__(self):
       super(Net, self).__init__()
